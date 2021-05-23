@@ -1,0 +1,26 @@
+.jobs {
+  background-color: #637074;
+  height: 100vh;
+}
+
+.jobs-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #212227;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  font-weight: 400;
+  height: 5rem;
+}
+
+.jobs-headline {
+  text-transform: uppercase;
+  color: #b6b6b6;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
