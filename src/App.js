@@ -4,6 +4,7 @@ import Ueber from './components/Ueber/Ueber'
 import Address from './components/Address/Address';
 import Education from './components/Education/Education'
 import Workexperience from './components/Workexperience/Workexperience'
+import ContactMe from './components/ContactMe/ContactMe'
 import Jobs from './components/Jobs/Jobs'
 import {
   BrowserRouter as Router,
@@ -18,6 +19,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
+          <Route path="/contactme" render={ContactMe}>
+          </Route>
           <Route path="/address" render={Address}>
           </Route>
           <Route path="/education" render={Education}>

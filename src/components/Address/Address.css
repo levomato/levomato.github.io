@@ -1,7 +1,7 @@
 .outerContainer {
   margin-left: 5rem;
-  height: 60%;
   align-items: center;
+  height: 100vh;
 }
 
 .allData {
@@ -14,4 +14,21 @@
   flex-direction: column;
   align-items: center;
   color: #b6b6b6;
+}
+
+.stammdaten {
+  background-color: #637074;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.persondata {
+  text-transform: uppercase;
+  color: #b6b6b6;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  margin-top: 0px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-align: center;
 }

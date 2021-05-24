@@ -1,0 +1,131 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  background-color: #637074;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  background-color: #ececec;
+  height: 60%;
+  width: 70%;
+  border-radius: 5%;
+}
+
+.first-col {
+  width: 40%;
+  background-color: #212227;
+  padding: 5%;
+}
+
+.second-col {
+  width: 60%;
+  background-color: #b6b6b6;
+  padding: 5%;
+}
+
+.chatHeadline {
+  color: #b6b6b6;
+  font-weight: 400;
+}
+
+.chatHeadlinSecond {
+  color: #212227;
+  font-weight: 400;
+}
+
+.chatP {
+  color: #b6b6b6;
+  font-weight: 200;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.textarea {
+  font-family: inherit;
+  margin-top: 1rem;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 0.8rem;
+  color: #212227;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.textarea::placeholder {
+  font-size: 1rem;
+}
+.form-group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form-field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1rem;
+  color: #212227;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form-field::placeholder {
+  color: transparent;
+}
+.form-field:placeholder-shown ~ .form-label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  margin-bottom: 0.5rem;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form-field:focus {
+  padding-bottom: 6px;
+  font-weight: 400;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #212121, #637074);
+  border-image-slice: 1;
+}
+.form-field:focus ~ .form-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #637074;
+  font-weight: 400;
+}
+
+/* reset input */
+.form-field:required,
+.form-field:invalid {
+  box-shadow: none;
+}
+
+.edu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

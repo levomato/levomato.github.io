@@ -3,13 +3,14 @@
   margin-left: 5rem;
   color: #ececec;
   align-items: center;
+  height: 100vh;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60vh;
+  height: 50%;
 }
 
 .titleContainer {
@@ -39,6 +40,7 @@
 .angeberContainer {
   background-color: #637074;
   display: flex;
+
   justify-content: space-between;
 }
 .angeben {
@@ -79,4 +81,10 @@
 
 .skillName {
   margin: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .outerContainer {
+    margin-left: 0 !important;
+  }
 }

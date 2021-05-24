@@ -43,6 +43,12 @@ const NavBar = () => {
                         <span className="link-text">Jobs</span>
                     </Link>
                 </li>
+                <li className="nav-item">
+                    <Link to="/contactme" className="nav-link">
+                        <i className="fas fa-comment-alt fa-primary"></i>
+                        <span className="link-text">Kontakt</span>
+                    </Link>
+                </li>
 
 
 

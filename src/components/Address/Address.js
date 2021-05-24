@@ -12,7 +12,7 @@ const Address = () => {
         <div className="outerContainer">
             <Map location={location} zoomLevel={15} />
             <div className="stammdaten">
-                <h2 className="map-h2">Persönliche Daten</h2>
+                <h2 className="persondata">Persönliche Daten</h2>
                 <div className="allData">
                     <Slide up>
 
